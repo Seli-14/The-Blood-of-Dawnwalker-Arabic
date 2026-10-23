@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-الإصدار 1.1 · يدعم إصدار اللعبة ⁨1.0.5⁩ على ⁨Steam⁩ · ⁨Windows 11⁩ · ملف واحد بحجم 16.8 ميغابايت
+الإصدار 1.2 · يدعم إصدار اللعبة ⁨1.1⁩ على ⁨Steam⁩ · ⁨Windows 11⁩ · ملف واحد بحجم 16.8 ميغابايت
 </p>
 
 <p align="center" dir="ltr">
@@ -106,7 +106,7 @@
 ## ما تغيره الأداة في جهازك
 
 - تضيف ملفات التعريب إلى مجلد اللعبة بجانب ملفاتها، ولا تعدل محتوى ملفات اللعبة الأصلية.
-- تغير اسم ملف واحد من ملفات اللعبة (ملف الترجمة الإنجليزية لمقطع المقدمة)، وتعيده عند الإزالة.
+- تغير اسمي ملفين من ملفات اللعبة (ملفي الترجمة الإنجليزية لمقطع المقدمة ولمقطع ما بعد شارة النهاية)، وتعيدهما عند الإزالة.
 - تضيف سطرين إلى ملف إعدادات اللعبة ⁨`Engine.ini`⁩ بعد حفظ نسخة منه، وتجعله للقراءة فقط.
 - لا تقترب من ملفات الحفظ ولا الإنجازات، ولا تضيف برامج تعمل في الخلفية.
 - تتصل بالإنترنت لشيء واحد فقط: أن تعرف هل صدر إصدار جديد من التعريب. وتستأذنك قبل أول اتصال.
@@ -161,7 +161,7 @@ certutil -hashfile ArabQuest-Dawnwalker.exe SHA256
 <details>
 <summary>استعملت «التحقق من سلامة الملفات» في ⁨Steam⁩</summary>
 
-لا يمس ملفات التعريب، لكن ترجمة المقدمة قد تعود بعده إلى الإنجليزية. اضغط «فحص السلامة»، وإن ظهرت مشكلة فاضغط «إصلاح».
+لا يمس ملفات التعريب، لكن ترجمة المقاطع السينمائية قد تعود بعده إلى الإنجليزية. اضغط «فحص السلامة»، وإن ظهرت مشكلة فاضغط «إصلاح».
 
 </details>
 
@@ -258,7 +258,7 @@ certutil -hashfile ArabQuest-Dawnwalker.exe SHA256
 
 ## English
 
-Unofficial Arabic fan translation (Arabic localization patch) of **The Blood of Dawnwalker** by team ArabQuest, for the Steam release, game version 1.0.5. Tested on Windows 11; Windows 10 is expected to work but has not been tested yet.
+Unofficial Arabic fan translation (Arabic localization patch) of **The Blood of Dawnwalker** by team ArabQuest, for the Steam release, game version 1.1 (Update 1.1). Tested on Windows 11; Windows 10 is expected to work but has not been tested yet.
 
 - **What you get:** more than 53,000 lines in Arabic (dialogue, quests, menus, items, books), Arabic subtitles for the cutscenes (text only, no dubbing), an Arabic font, and right-to-left layout on the main game screens.
 - **Install:** download [ArabQuest-Dawnwalker.exe](https://github.com/Seli-14/The-Blood-of-Dawnwalker-Arabic/releases/latest/download/ArabQuest-Dawnwalker.exe), close the game, run the tool and press the install button. Then add `-culture=ar` to the game's Launch Options in Steam and start the game.
